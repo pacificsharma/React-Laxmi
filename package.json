@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --watch --mode production --config ./webpack/webpack.dev.config.js"
+    "dev": "webpack-dev-server --watch --mode development --config ./webpack/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ps1070ag10/React-Laxmi#readme",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
+    "moment": "^2.22.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "webpack": "^4.17.0",
